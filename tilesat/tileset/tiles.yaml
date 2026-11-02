@@ -1,0 +1,63 @@
+# Tileset configuration
+# Rotations are horizontal
+- filename: line.png
+  rotation: 0
+  connections:
+  - top
+  - bottom
+- filename: line.png
+  rotation: 90
+  connections:
+  - left
+  - right
+- filename: corner.png
+  rotation: 0
+  connections:
+  - top
+  - right
+- filename: corner.png
+  rotation: 90
+  connections:
+  - top
+  - left
+- filename: corner.png
+  rotation: 180
+  connections:
+  - bottom
+  - left
+- filename: corner.png
+  rotation: 270
+  connections:
+  - bottom
+  - right
+- filename: cross.png
+  rotation: 0
+  connections:
+  - top
+  - right
+  - bottom
+  - left
+- filename: vdash.png
+  rotation: 0
+  connections:
+  - top
+  - bottom
+  - right
+- filename: vdash.png
+  rotation: 90
+  connections:
+  - top
+  - right
+  - left
+- filename: vdash.png
+  rotation: 180
+  connections:
+  - top
+  - bottom
+  - left
+- filename: vdash.png
+  rotation: 270
+  connections:
+  - left
+  - bottom
+  - right
